@@ -25,41 +25,55 @@ Smart Report Analyzer is an AI-powered web app built with **Streamlit**, powered
 
 ## 📁 Project Structure
 
-Smart-Report-Analyzer/ 
-├── app.py # Main Streamlit app 
-├── requirements.txt 
-# Python dependencies ├── .env # Contains your Hugging Face token (not to be pushed) 
-├── utils/ │ 
-    ├── file_handler.py # Handles file upload and parsing │ 
-    ├── eda.py # Data visualization (EDA) 
-    │ └── llm_agent.py # LLM summarization and Q&A logic 
-    ├── sample_sales_data.xlsx # Test Excel file (optional) 
-    ├── sample_report.pdf # Test PDF file (optional) 
+ Smart-Report-Analyzer/ 
+ ├── app.py # Main Streamlit app 
+ 
+ ├── requirements.txt 
+ 
+ ├── .env # Contains your Hugging Face token (not to be pushed) 
+ 
+ ├── utils/ 
+ 
+       ├── file_handler.py # Handles file upload and parsing 
+       
+       ├── eda.py # Data visualization (EDA) 
+       
+       └── llm_agent.py # LLM summarization and Q&A logic 
+    
+       ├── sample_sales_data.xlsx # Test Excel file (optional) 
+        
+       ├── sample_report.pdf # Test PDF file (optional) 
+    
 └── README.md
 
 
 ---
 
-## 🛠️ Setup Instructions
+### 🛠️ Setup Instructions
 
-### 1. Clone the Repository
+##  1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/smart-report-analyzer.git
+
 cd smart-report-analyzer
 
-2. Create and Activate Virtual Environment
+
+### 2. **Create and Activate Virtual Environment**
 
 python -m venv venv
 venv\Scripts\activate      # On Windows
-# OR
+
+
+### OR
 source venv/bin/activate   # On Mac/Linux
 
-3. Install Dependencies
+
+### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-4. Create .env File
+
+### 4. Create .env File
 
 Create a .env file in the root directory and add your Hugging Face token:
 
@@ -68,7 +82,8 @@ HUGGINGFACE_HUB_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxxx
 You can generate a free token from your Hugging Face account here:
 👉 https://huggingface.co/settings/tokens
 
-▶️ Run the App
+
+### ▶️ Run the App
 
 streamlit run app.py
 
@@ -76,7 +91,7 @@ The app will open in your browser at http://localhost:8501.
 
 --
 
-📦 Sample Files
+### 📦 Sample Files
 
 Use the included sample files to test:
 
@@ -85,40 +100,45 @@ Use the included sample files to test:
     sample_report.pdf – Business-style unstructured report
 
 
-✅ Models Used
+### ✅ Models Used
+
 Purpose	Model
+
 Summarization	knkarthick/MEETING_SUMMARY
+
 Table Q&A	google/tapas-large-finetuned-wtq
+
 PDF/Text Q&A	google/flan-t5-small
 
-🔐 Important Notes
 
-    Never commit your .env file or token to GitHub.
+### 🔐 Important Notes
 
-    You can add .env to .gitignore:
+Never commit your .env file or token to GitHub.
 
-    .env
+You can add .env to .gitignore:
 
-📌 TODOs / Future Improvements
+.env
 
-    Add support for larger files or chunked analysis
+### 📌 TODOs / Future Improvements
 
-    Upload multiple files for comparison
+Add support for larger files or chunked analysis
 
-    Deploy to Streamlit Cloud or HuggingFace Spaces
+Upload multiple files for comparison
 
-    Improve accuracy using retrieval-augmented generation (RAG)
+Deploy to Streamlit Cloud or HuggingFace Spaces
+
+Improve accuracy using retrieval-augmented generation (RAG)
 
 
-📄 License
+### 📄 License
 
 MIT License – free to use and modify.
 
 
-💡 Author
+###💡 Author
 
 Created by Sreeja Bethu
-🔗 LinkedIn (Optional)
+🔗 LinkedIn (linkedin.com/in/sreejabethu)
 
 
 ---
