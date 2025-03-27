@@ -1,6 +1,6 @@
 # 🧠 Smart Report Analyzer(Hugging Face + Streamlit)
 
-Smart Report Analyzer is an AI-powered web app built with **Streamlit**, powered by **Hugging Face models**, that intelligently summarizes and analyzes structured data (Excel/CSV) and unstructured text (PDF). It can also answer questions about the uploaded content using LLMs.
+Smart Report Analyzer is an LLM-powered web app built with **Streamlit**, powered by **Hugging Face models**, that intelligently summarizes and analyzes structured data (Excel/CSV) and unstructured text (PDF). It can also answer questions about the uploaded content using LLMs.
 
 ---
 
