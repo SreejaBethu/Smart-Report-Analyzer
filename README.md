@@ -135,7 +135,7 @@ Improve accuracy using retrieval-augmented generation (RAG)
 MIT License – free to use and modify.
 
 
-###💡Author
+### 💡Author
 
 Created by Sreeja Bethu
 🔗 LinkedIn (linkedin.com/in/sreejabethu)
